@@ -1,0 +1,10 @@
+POST http://localhost:8080/api/livres
+Content-Type: application/json
+
+{
+    "titre" : "Les 48 Lois du Pouvoir",
+    "auteur": "Robert Greene",
+    "genre" : "Stratégie",
+    "anneePublication": 1998,
+    "disponible": true 
+}

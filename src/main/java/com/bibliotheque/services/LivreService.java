@@ -1,0 +1,46 @@
+package com.bibliotheque.services;
+
+import com.bibliotheque.models.Livre;
+import com.bibliotheque.repositories.LivreRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.Optional;
+
+@Service
+public class LivreService {
+
+    @Autowired
+    private LivreRepository livreRepository;
+
+    public List<Livre> getAllLivres() {
+        return livreRepository.findAll();
+    }
+
+    public Optional<Livre> getLivreById(Long id) {
+        return livreRepository.findById(id);
+    }
+
+    public Livre saveLivre(Livre livre) {
+        return livreRepository.save(livre);
+    }
+
+    public Livre updateLivre(Long id, Livre livreDetails) {
+        Optional<Livre> livreOptional = livreRepository.findById(id);
+
+        if (livreOptional.isPresent()) {
+            Livre livre = livreOptional.get();
+            livre.setTitre(livreDetails.getTitre());
+            livre.setAuteur(livreDetails.getAuteur());
+            livre.setAnneePublication(livreDetails.getAnneePublication());
+            return livreRepository.save(livre);
+        } else {
+            throw new RuntimeException("Livre non trouvé avec l'ID : " + id);
+        }
+    }
+
+    public void deleteLivre(Long id) {
+        livreRepository.deleteById(id);
+    }
+}

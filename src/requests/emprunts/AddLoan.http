@@ -1,0 +1,10 @@
+POST http://localhost:8080/api/emprunts/ajouter
+Content-Type: application/json
+
+{
+  "utilisateur": { "id": 3 },
+  "livre": { "id": 9 },
+  "dateEmprunt": "",
+  "dateRetourPrevue": "",
+  "statut": "En cours"
+}

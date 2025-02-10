@@ -1,0 +1,8 @@
+POST   http://localhost:8080/api/utilisateurs
+Content-Type: application/json
+
+{
+  "nom": "Esai KOTCHONI",
+  "email": "sparthanesai@gmail.com",
+  "numeroTelephone": "+2290153584816"
+}

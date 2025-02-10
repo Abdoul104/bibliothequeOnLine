@@ -1,0 +1,22 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-content {
+    flex: 1;
+    margin-top: 50px; /* Ajuste cette valeur selon la hauteur de ta navbar */
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.gif-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}

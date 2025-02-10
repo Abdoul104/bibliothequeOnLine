@@ -1,0 +1,8 @@
+PUT http://localhost:8080/api/utilisateurs/1
+Content-Type: application/json
+
+{
+    "nom": "Java BOOT",
+    "email": "javaboot204@gmail.com",
+    "numeroTelephone": "+2290100000000"
+}

@@ -1,0 +1,8 @@
+PUT http://localhost:8080/api/emprunts/modifier/10
+Content-Type: application/json
+
+{
+  "dateEmprunt": "2025-02-05",
+  "dateRetourPrevue": "2025-02-19",
+  "statut": "Terminé"
+}

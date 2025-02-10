@@ -1,0 +1,699 @@
+id: 1
+titre: Les Misérables
+auteur: Victor Hugo
+genre: Roman
+anneePublication: 1862
+disponible: true
+
+id: 2
+titre: L'Alchimiste
+auteur: Paulo Coelho
+genre: Développement personnel
+anneePublication: 1988
+disponible: true
+
+id: 3
+titre: Le Petit Prince
+auteur: Antoine de Saint-Exupéry
+genre: Conte philosophique
+anneePublication: 1943
+disponible: true
+
+id: 4
+titre: 1984
+auteur: George Orwell
+genre: Science-fiction
+anneePublication: 1949
+disponible: true
+
+id: 5
+titre: L'Étranger
+auteur: Albert Camus
+genre: Roman philosophique
+anneePublication: 1942
+disponible: false
+
+id: 6
+titre: Harry Potter à l'école des sorciers
+auteur: J.K. Rowling
+genre: Fantaisie
+anneePublication: 1997
+disponible: true
+
+id: 7
+titre: Crime et Châtiment
+auteur: Fiodor Dostoïevski
+genre: Roman psychologique
+anneePublication: 1866
+disponible: false
+
+id: 8
+titre: Le Seigneur des Anneaux
+auteur: J.R.R. Tolkien
+genre: Fantaisie
+anneePublication: 1954
+disponible: true
+
+id: 9
+titre: Dune
+auteur: Frank Herbert
+genre: Science-fiction
+anneePublication: 1965
+disponible: true
+
+id: 10
+titre: Fahrenheit 451
+auteur: Ray Bradbury
+genre: Science-fiction
+anneePublication: 1953
+disponible: false
+
+id: 11
+titre: Sapiens : Une brève histoire de l’humanité
+auteur: Yuval Noah Harari
+genre: Histoire
+anneePublication: 2011
+disponible: true
+
+id: 12
+titre: Homo Deus
+auteur: Yuval Noah Harari
+genre: Philosophie
+anneePublication: 2016
+disponible: false
+
+id: 13
+titre: L'Art de la guerre
+auteur: Sun Tzu
+genre: Stratégie
+anneePublication: -500
+disponible: true
+
+id: 14
+titre: Pensées pour moi-même
+auteur: Marc Aurèle
+genre: Philosophie
+anneePublication: 180
+disponible: true
+
+id: 15
+titre: Rich Dad Poor Dad
+auteur: Robert Kiyosaki
+genre: Finances
+anneePublication: 1997
+disponible: false
+
+id: 16
+titre: L'investisseur intelligent
+auteur: Benjamin Graham
+genre: Finances
+anneePublication: 1949
+disponible: true
+
+id: 17
+titre: Influence et manipulation
+auteur: Robert Cialdini
+genre: Psychologie
+anneePublication: 1984
+disponible: true
+
+id: 18
+titre: Les 7 habitudes des gens efficaces
+auteur: Stephen Covey
+genre: Développement personnel
+anneePublication: 1989
+disponible: false
+
+id: 19
+titre: Cosmos
+auteur: Carl Sagan
+genre: Science
+anneePublication: 1980
+disponible: true
+
+id: 20
+titre: Une brève histoire du temps
+auteur: Stephen Hawking
+genre: Science
+anneePublication: 1988
+disponible: false
+
+id: 21
+titre: Clean Code
+auteur: Robert C. Martin
+genre: Informatique
+anneePublication: 2008
+disponible: true
+
+id: 22
+titre: Design Patterns
+auteur: Erich Gamma et al.
+genre: Informatique
+anneePublication: 1994
+disponible: true
+
+id: 23
+titre: The Lean Startup
+auteur: Eric Ries
+genre: Entrepreneuriat
+anneePublication: 2011
+disponible: false
+
+id: 24
+titre: La Psychologie de l'Argent
+auteur: Morgan Housel
+genre: Finances
+anneePublication: 2020
+disponible: true
+
+id: 25
+titre: Les 48 lois du pouvoir
+auteur: Robert Greene
+genre: Stratégie
+anneePublication: 1998
+disponible: false
+
+id: 26
+titre: Mindset: The New Psychology of Success
+auteur: Carol Dweck
+genre: Psychologie
+anneePublication: 2006
+disponible: true
+
+id: 27
+titre: Elon Musk: L'Homme qui défie l'impossible
+auteur: Ashlee Vance
+genre: Biographie
+anneePublication: 2015
+disponible: false
+
+id: 28
+titre: Steve Jobs
+auteur: Walter Isaacson
+genre: Biographie
+anneePublication: 2011
+disponible: true
+
+id: 29
+titre: Le Charme discret de l'intestin
+auteur: Giulia Enders
+genre: Santé
+anneePublication: 2014
+disponible: true
+
+id: 30
+titre: Se soigner au naturel
+auteur: Michel Dogna
+genre: Santé
+anneePublication: 2016
+disponible: false
+
+id: 31
+titre: Le Pouvoir du Moment Présent
+auteur: Eckhart Tolle
+genre: Développement personnel
+anneePublication: 1997
+disponible: true
+
+id: 32
+titre: La Magie du Rangement
+auteur: Marie Kondo
+genre: Développement personnel
+anneePublication: 2011
+disponible: false
+
+id: 33
+titre: L'Origine des Espèces
+auteur: Charles Darwin
+genre: Science
+anneePublication: 1859
+disponible: true
+
+id: 34
+titre: Le Capital au XXIe siècle
+auteur: Thomas Piketty
+genre: Économie
+anneePublication: 2013
+disponible: false
+
+id: 35
+titre: Le Manifeste du Parti Communiste
+auteur: Karl Marx et Friedrich Engels
+genre: Politique
+anneePublication: 1848
+disponible: true
+
+id: 36
+titre: La République
+auteur: Platon
+genre: Philosophie
+anneePublication: -375
+disponible: false
+
+id: 37
+titre: La Divine Comédie
+auteur: Dante Alighieri
+genre: Poésie
+anneePublication: 1320
+disponible: true
+
+id: 38
+titre: La Bible
+auteur: Divers auteurs
+genre: Religion
+anneePublication: variable
+disponible: true
+
+id: 39
+titre: Le Coran
+auteur: Divers auteurs
+genre: Religion
+anneePublication: 632
+disponible: false
+
+id: 40
+titre: La Torah
+auteur: Divers auteurs
+genre: Religion
+anneePublication: variable
+disponible: true
+
+id: 41
+titre: Bhagavad-Gita
+auteur: Anonyme
+genre: Religion
+anneePublication: variable
+disponible: false
+
+id: 42
+titre: Tao Te King
+auteur: Lao Tseu
+genre: Philosophie
+anneePublication: -600
+disponible: true
+
+id: 43
+titre: Le Prince
+auteur: Nicolas Machiavel
+genre: Politique
+anneePublication: 1532
+disponible: true
+
+id: 44
+titre: Une Vie
+auteur: Guy de Maupassant
+genre: Roman
+anneePublication: 1883
+disponible: false
+
+id: 45
+titre: Madame Bovary
+auteur: Gustave Flaubert
+genre: Roman
+anneePublication: 1857
+disponible: true
+
+id: 46
+titre: Germinal
+auteur: Émile Zola
+genre: Roman
+anneePublication: 1885
+disponible: false
+
+id: 47
+titre: Le Rouge et le Noir
+auteur: Stendhal
+genre: Roman
+anneePublication: 1830
+disponible: true
+
+id: 48
+titre: La Chartreuse de Parme
+auteur: Stendhal
+genre: Roman
+anneePublication: 1839
+disponible: false
+
+id: 49
+titre: Le Grand Meaulnes
+auteur: Alain-Fournier
+genre: Roman
+anneePublication: 1913
+disponible: true
+
+id: 50
+titre: Jane Eyre
+auteur: Charlotte Brontë
+genre: Roman
+anneePublication: 1847
+disponible: true
+
+id: 51
+titre: Orgueil et Préjugés
+auteur: Jane Austen
+genre: Roman
+anneePublication: 1813
+disponible: false
+
+id: 52
+titre: Moby Dick
+auteur: Herman Melville
+genre: Roman
+anneePublication: 1851
+disponible: true
+
+id: 53
+titre: Robinson Crusoé
+auteur: Daniel Defoe
+genre: Aventure
+anneePublication: 1719
+disponible: true
+
+id: 54
+titre: Les Aventures de Tom Sawyer
+auteur: Mark Twain
+genre: Aventure
+anneePublication: 1876
+disponible: false
+
+id: 55
+titre: Vingt mille lieues sous les mers
+auteur: Jules Verne
+genre: Science-fiction
+anneePublication: 1870
+disponible: true
+
+id: 56
+titre: L'Île mystérieuse
+auteur: Jules Verne
+genre: Aventure
+anneePublication: 1874
+disponible: false
+
+id: 57
+titre: Voyage au centre de la Terre
+auteur: Jules Verne
+genre: Science-fiction
+anneePublication: 1864
+disponible: true
+
+id: 58
+titre: Le Tour du monde en quatre-vingts jours
+auteur: Jules Verne
+genre: Aventure
+anneePublication: 1873
+disponible: false
+
+id: 59
+titre: Les Trois Mousquetaires
+auteur: Alexandre Dumas
+genre: Aventure
+anneePublication: 1844
+disponible: true
+
+id: 60
+titre: Le Comte de Monte-Cristo
+auteur: Alexandre Dumas
+genre: Roman
+anneePublication: 1844
+disponible: true
+
+id: 61
+titre: Notre-Dame de Paris
+auteur: Victor Hugo
+genre: Roman
+anneePublication: 1831
+disponible: false
+
+id: 62
+titre: Les Contes de Perrault
+auteur: Charles Perrault
+genre: Conte
+anneePublication: 1697
+disponible: true
+
+id: 63
+titre: Contes d'Andersen
+auteur: Hans Christian Andersen
+genre: Conte
+anneePublication: 1835
+disponible: false
+
+id: 64
+titre: Alice au pays des merveilles
+auteur: Lewis Carroll
+genre: Fantaisie
+anneePublication: 1865
+disponible: true
+
+id: 65
+titre: Le Magicien d'Oz
+auteur: L. Frank Baum
+genre: Fantaisie
+anneePublication: 1900
+disponible: true
+
+id: 66
+titre: L'Attrape-cœurs
+auteur: J.D. Salinger
+genre: Roman
+anneePublication: 1951
+disponible: false
+
+id: 67
+titre: Gatsby le Magnifique
+auteur: F. Scott Fitzgerald
+genre: Roman
+anneePublication: 1925
+disponible: true
+
+id: 68
+titre: Sur la route
+auteur: Jack Kerouac
+genre: Roman
+anneePublication: 1957
+disponible: false
+
+id: 69
+titre: Le Vieil Homme et la Mer
+auteur: Ernest Hemingway
+genre: Roman
+anneePublication: 1952
+disponible: true
+
+id: 70
+titre: Pour qui sonne le glas
+auteur: Ernest Hemingway
+genre: Roman
+anneePublication: 1940
+disponible: false
+
+id: 71
+titre: Dracula
+auteur: Bram Stoker
+genre: Horreur
+anneePublication: 1897
+disponible: true
+
+id: 72
+titre: Frankenstein
+auteur: Mary Shelley
+genre: Horreur
+anneePublication: 1818
+disponible: true
+
+id: 73
+titre: Le Nom de la Rose
+auteur: Umberto Eco
+genre: Roman historique
+anneePublication: 1980
+disponible: false
+
+id: 74
+titre: Cent ans de solitude
+auteur: Gabriel García Márquez
+genre: Roman
+anneePublication: 1967
+disponible: true
+
+id: 75
+titre: Don Quichotte
+auteur: Miguel de Cervantes
+genre: Roman
+anneePublication: 1605
+disponible: false
+
+id: 76
+titre: Bel-Ami
+auteur: Guy de Maupassant
+genre: Roman
+anneePublication: 1885
+disponible: true
+
+id: 77
+titre: Le Parfum
+auteur: Patrick Süskind
+genre: Roman historique
+anneePublication: 1985
+disponible: false
+
+id: 78
+titre: La Peste
+auteur: Albert Camus
+genre: Roman philosophique
+anneePublication: 1947
+disponible: true
+
+id: 79
+titre: Le Dernier Jour d’un Condamné
+auteur: Victor Hugo
+genre: Roman
+anneePublication: 1829
+disponible: true
+
+id: 80
+titre: Les Fourmis
+auteur: Bernard Werber
+genre: Science-fiction
+anneePublication: 1991
+disponible: false
+
+id: 81
+titre: L'Homme qui voulait être heureux
+auteur: Laurent Gounelle
+genre: Développement personnel
+anneePublication: 2008
+disponible: true
+
+id: 82
+titre: Rich Dad Poor Dad
+auteur: Robert Kiyosaki
+genre: Finances
+anneePublication: 1997
+disponible: false
+
+id: 83
+titre: Père Riche, Père Pauvre
+auteur: Robert Kiyosaki
+genre: Finances
+anneePublication: 2000
+disponible: true
+
+id: 84
+titre: La semaine de 4 heures
+auteur: Timothy Ferriss
+genre: Développement personnel
+anneePublication: 2007
+disponible: false
+
+id: 85
+titre: Réfléchissez et devenez riche
+auteur: Napoleon Hill
+genre: Développement personnel
+anneePublication: 1937
+disponible: true
+
+id: 86
+titre: Influence et Manipulation
+auteur: Robert Cialdini
+genre: Psychologie
+anneePublication: 1984
+disponible: true
+
+id: 87
+titre: L'Art de la Guerre
+auteur: Sun Tzu
+genre: Stratégie
+anneePublication: -500
+disponible: false
+
+id: 88
+titre: L'Intelligence Émotionnelle
+auteur: Daniel Goleman
+genre: Psychologie
+anneePublication: 1995
+disponible: true
+
+id: 89
+titre: L'Univers élégant
+auteur: Brian Greene
+genre: Science
+anneePublication: 1999
+disponible: false
+
+id: 90
+titre: Une brève histoire du temps
+auteur: Stephen Hawking
+genre: Science
+anneePublication: 1988
+disponible: true
+
+id: 91
+titre: Cosmos
+auteur: Carl Sagan
+genre: Science
+anneePublication: 1980
+disponible: false
+
+id: 92
+titre: Sapiens : Une brève histoire de l'humanité
+auteur: Yuval Noah Harari
+genre: Histoire
+anneePublication: 2011
+disponible: true
+
+id: 93
+titre: Homo Deus : Une brève histoire de l'avenir
+auteur: Yuval Noah Harari
+genre: Histoire
+anneePublication: 2015
+disponible: true
+
+id: 94
+titre: Le Cygne Noir
+auteur: Nassim Nicholas Taleb
+genre: Économie
+anneePublication: 2007
+disponible: false
+
+id: 95
+titre: Le Big Data
+auteur: Viktor Mayer-Schönberger, Kenneth Cukier
+genre: Technologie
+anneePublication: 2013
+disponible: true
+
+id: 96
+titre: Zéro à Un
+auteur: Peter Thiel
+genre: Entrepreneuriat
+anneePublication: 2014
+disponible: false
+
+id: 97
+titre: La Quatrième Révolution Industrielle
+auteur: Klaus Schwab
+genre: Technologie
+anneePublication: 2016
+disponible: true
+
+id: 98
+titre: Deep Work
+auteur: Cal Newport
+genre: Développement personnel
+anneePublication: 2016
+disponible: true
+
+id: 99
+titre: The Lean Startup
+auteur: Eric Ries
+genre: Entrepreneuriat
+anneePublication: 2011
+disponible: false
+
+id: 100
+titre: Les 48 Lois du Pouvoir
+auteur: Robert Greene
+genre: Stratégie
+anneePublication: 1998
+disponible: true
