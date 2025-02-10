@@ -89,15 +89,12 @@ L’application utilise **Bootstrap** pour améliorer l’expérience utilisateu
 - PostgreSQL ou MySQL installé  
 - Maven installé  
 
-### 🚀 **2. Cloner le projet**  
-```bash
-git clone https://github.com/name_repot
-cd name_folder
+### 🚀 **2. Ouvrez le projet dans l'éditeur**  
 
 # 🛠 3. Configurer la base de données
 
 # Modifiez application.properties pour adapter les paramètres PostgreSQL/MySQL :
-
+```bash
 spring.datasource.url=jdbc:postgresql://localhost:5432/bibliotheque
 spring.datasource.username=VOTRE_USER
 spring.datasource.password=VOTRE_MOT_DE_PASSE
