@@ -42,6 +42,18 @@
     </style>
 </head>
 <body>
+    <div id="successToast" class="toast position-fixed top-0 end-0 m-3" role="alert" aria-live="assertive" aria-atomic="true" style="z-index: 1050;">
+        <div class="toast-header bg-success text-white">
+            <strong class="me-auto">✅ Succès</strong>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            <span id="toastMessage"></span>
+            <div class="progress mt-2" style="height: 5px;">
+                <div id="toastProgress" class="progress-bar bg-white" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
 
     <!-- Navbar Fixe -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -122,6 +134,5 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>

@@ -20,7 +20,6 @@
     
 </head>
 <body>
-
     <!-- Navbar Fixe -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
@@ -46,7 +45,6 @@
             </div>
         </div>
     </nav> 
-
     <!-- Contenu principal -->
     <div class="container text-center main-content">
         <h1 class="mt-5">📚 Bienvenue dans la Bibliothèque en Ligne</h1>
@@ -62,8 +60,6 @@
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3 mt-4 fixed-bottom">
         <p>© 2025 Tous droits réservés - Bibliothèque en Ligne </p>
-        
-
     </footer>
 
     <!-- Bootstrap JS -->
