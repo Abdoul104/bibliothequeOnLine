@@ -91,19 +91,22 @@ L’application utilise **Bootstrap** pour améliorer l’expérience utilisateu
 
 ### 🚀 **2. Cloner le projet**  
 ```bash
-git clone https://github.com/
-cd gestion-bibliotheque
+git clone https://github.com/name_repot
+cd name_folder
 
-### 🚀 **3. Configurer la base de données**  
-- Modifie application.properties pour adapter les paramètres PostgreSQL/MySQL :
+# 🛠 3. Configurer la base de données
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/votre_base_de_donneés
+# Modifiez application.properties pour adapter les paramètres PostgreSQL/MySQL :
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/bibliotheque
 spring.datasource.username=VOTRE_USER
 spring.datasource.password=VOTRE_MOT_DE_PASSE
 spring.jpa.hibernate.ddl-auto=update
 
-### 🚀 **4. Lancer le projet**
-- Lance l’application avec Maven :
-- mvn spring-boot:run
+# ▶ 4. Démarrer l’application
 
-- L’application sera accessible sur http://localhost:8080 🚀
+#  Lancer l’application avec Maven :
+
+mvn spring-boot:run
+
+# L’application sera accessible sur http://localhost:8080 🚀
