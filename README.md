@@ -12,7 +12,7 @@ L’application explore des concepts clés tels que :
 - **Les services REST** avec Spring Boot  
 - **La persistance des données** avec JPA/Hibernate  
 - **Une interface simple et responsive** avec **JSP + Bootstrap**  
-- **Une base de données relationnelle PostgreSQL/MySQL**  
+- **Une base de données relationnelle PostgreSQL**  
 
 ---
 
@@ -62,10 +62,8 @@ Un emprunt est caractérisé par :
 ## 🎨 Interface Utilisateur  
 
 L’application utilise **Bootstrap** pour améliorer l’expérience utilisateur avec :  
-- 📌 **Un menu de navigation clair et intuitif**  
-- 🎭 **Un mode clair/sombre personnalisable**  
+- 📌 **Un menu de navigation clair et intuitif** 
 - 🛠 **Des interfaces fluides et modernes**  
-- ✅ **Des animations et effets pour un meilleur confort visuel**  
 
 ---
 
@@ -76,7 +74,7 @@ L’application utilise **Bootstrap** pour améliorer l’expérience utilisateu
 | **Java 21**        | Développement backend |
 | **Spring Boot**    | Framework Java pour API REST |
 | **JPA / Hibernate** | Persistance des données |
-| **PostgreSQL / MySQL** | Base de données |
+| **PostgreSQL**      | Base de données |
 | **JSP**            | Interface utilisateur |
 | **Bootstrap**      | Design responsive et moderne |
 | **FontAwesome**    | Icônes pour améliorer l'UI |
@@ -93,5 +91,19 @@ L’application utilise **Bootstrap** pour améliorer l’expérience utilisateu
 
 ### 🚀 **2. Cloner le projet**  
 ```bash
-git clone https://github.com/VOTRE-REPO.git
+git clone https://github.com/
 cd gestion-bibliotheque
+
+### 🚀 **3. Configurer la base de données**  
+- Modifie application.properties pour adapter les paramètres PostgreSQL/MySQL :
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/votre_base_de_donneés
+spring.datasource.username=VOTRE_USER
+spring.datasource.password=VOTRE_MOT_DE_PASSE
+spring.jpa.hibernate.ddl-auto=update
+
+### 🚀 **4. Lancer le projet**
+- Lance l’application avec Maven :
+- mvn spring-boot:run
+
+- L’application sera accessible sur http://localhost:8080 🚀
