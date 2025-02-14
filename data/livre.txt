@@ -675,7 +675,7 @@ titre: La Quatrième Révolution Industrielle
 auteur: Klaus Schwab
 genre: Technologie
 anneePublication: 2016
-disponible: true
+disponible: true 
 
 id: 98
 titre: Deep Work

@@ -75,6 +75,14 @@ public class EmpruntService {
         return "Emprunt introuvable.";
     }
 
+    @SuppressWarnings("unlikely-arg-type")
+    public void emprunterLivre(Long utilisateurId, Long livreId) {
+        Livre livre = livreRepository.findById(livreId).orElseThrow();
+        if (!"oui".equals(livre.isDisponible())) {
+            throw new RuntimeException("Ce livre n'est pas disponible à l'emprunt !");
+        }
+    }
+
     public String rendreLivre(Long id) {
         Optional<Emprunt> empruntOpt = empruntRepository.findById(id);
     
@@ -96,9 +104,4 @@ public class EmpruntService {
         }
         return "Emprunt introuvable.";
     }
-
-    // public String supprimerEmprunt(Long id) {
-    //     empruntRepository.deleteById(id);
-    //     return "Emprunt supprimer avec succès.";
-    // }
 }

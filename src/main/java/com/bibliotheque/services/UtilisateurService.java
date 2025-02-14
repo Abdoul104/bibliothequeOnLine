@@ -1,6 +1,7 @@
 package com.bibliotheque.services;
 
 import com.bibliotheque.models.Utilisateur;
+import com.bibliotheque.repositories.EmpruntRepository;
 import com.bibliotheque.repositories.UtilisateurRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,8 +12,14 @@ import java.util.Optional;
 @Service
 public class UtilisateurService {
 
+    private final UtilisateurRepository utilisateurRepository;
+    private final EmpruntRepository empruntRepository;
+
     @Autowired
-    private UtilisateurRepository utilisateurRepository;
+    public UtilisateurService(UtilisateurRepository utilisateurRepository, EmpruntRepository empruntRepository) {
+        this.utilisateurRepository = utilisateurRepository;
+        this.empruntRepository = empruntRepository;
+    }
 
     public List<Utilisateur> getAllUtilisateurs() {
         return utilisateurRepository.findAll();
@@ -36,6 +43,9 @@ public class UtilisateurService {
     }
 
     public void deleteUtilisateur(Long id) {
+        if (!empruntRepository.findByUtilisateurId(id).isEmpty()) {
+            throw new RuntimeException("Impossible de supprimer cet utilisateur, il a encore des emprunts actifs.");
+        }
         utilisateurRepository.deleteById(id);
     }
 }

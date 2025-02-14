@@ -1,10 +1,10 @@
 # 📚 Gestion de Bibliothèque en Ligne  
 
-### 👨‍💻 Concepteurs :  
+### Concepteurs :  
 - **Abdoul Rachid BISSARE**  
 - **Esai KOTCHONI**  
 
-## 🚀 Description du Projet  
+## Description du Projet  
 
 Ce projet a pour objectif de développer une plateforme web intuitive de **gestion de bibliothèque en ligne** permettant la location de livres. Il a été conçu avec **Java et Spring Boot**, en intégrant des technologies modernes pour la persistance des données et une interface utilisateur dynamique.  
 
@@ -16,15 +16,15 @@ L’application explore des concepts clés tels que :
 
 ---
 
-## 📌 Fonctionnalités  
+## Fonctionnalités  
 
 L’application permet de :  
 
-### 📖 Gestion des Livres  
-✅ Ajouter un livre  
-✅ Modifier les informations d’un livre  
-✅ Supprimer un livre  
-✅ Consulter la liste des livres disponibles  
+### Gestion des Livres  
+- Ajouter un livre  
+- Modifier les informations d’un livre  
+- Supprimer un livre  
+- Consulter la liste des livres disponibles  
 
 Chaque livre possède les attributs suivants :  
 - **Titre**  
@@ -33,22 +33,22 @@ Chaque livre possède les attributs suivants :
 - **Année de publication**  
 - **Disponibilité** (✔️ Oui / ❌ Non)  
 
-### 👤 Gestion des Utilisateurs  
-✅ Ajouter un utilisateur  
-✅ Modifier un utilisateur  
-✅ Supprimer un utilisateur  
-✅ Consulter la liste des utilisateurs  
+### Gestion des Utilisateurs  
+- Ajouter un utilisateur  
+- Modifier un utilisateur  
+- Supprimer un utilisateur  
+- Consulter la liste des utilisateurs  
 
 Chaque utilisateur possède :  
 - **Nom**  
 - **Email**  
 - **Numéro de téléphone**  
 
-### 📚 Gestion des Emprunts  
-✅ Un utilisateur peut **emprunter un livre**  
-✅ Suivi des **dates d’emprunt et de retour prévu**  
-✅ Suivi du **statut des emprunts** (En cours / Terminé)  
-✅ Rendre un livre  
+### Gestion des Emprunts  
+- Un utilisateur peut **emprunter un livre**  
+- Suivi des **dates d’emprunt et de retour prévu**  
+- Suivi du **statut des emprunts** (En cours / Terminé)  
+- Rendre un livre  
 
 Un emprunt est caractérisé par :  
 - **Utilisateur associé**  
@@ -59,15 +59,15 @@ Un emprunt est caractérisé par :
 
 ---
 
-## 🎨 Interface Utilisateur  
+## Interface Utilisateur  
 
 L’application utilise **Bootstrap** pour améliorer l’expérience utilisateur avec :  
-- 📌 **Un menu de navigation clair et intuitif** 
-- 🛠 **Des interfaces fluides et modernes**  
+-  **Un menu de navigation clair et intuitif** 
+-  **Des interfaces fluides et modernes**  
 
 ---
 
-## 🛠 Technologies Utilisées  
+## Technologies Utilisées  
 
 | Technologie         | Usage |
 |---------------------|-----------------------------|
@@ -82,28 +82,28 @@ L’application utilise **Bootstrap** pour améliorer l’expérience utilisateu
 
 ---
 
-## 📦 Installation et Lancement  
+## Installation et Lancement  
 
-### 📥 **1. Prérequis**  
+### **1. Prérequis**  
 - Java 21 installé  
 - PostgreSQL ou MySQL installé  
 - Maven installé  
 
-### 🚀 **2. Ouvrez le projet dans l'éditeur**  
+### **2. Ouvrez le projet dans l'éditeur**  
 
-# 🛠 3. Configurer la base de données
+# 3. Configurer la base de données
 
 # Modifiez application.properties pour adapter les paramètres PostgreSQL/MySQL :
 ```bash
 spring.datasource.url=jdbc:postgresql://localhost:5432/bibliotheque
-spring.datasource.username=VOTRE_USER
+spring.datasource.username=VOTRE_USER 
 spring.datasource.password=VOTRE_MOT_DE_PASSE
 spring.jpa.hibernate.ddl-auto=update
-
-# ▶ 4. Démarrer l’application
+```
+# 4. Démarrer l’application
 
 #  Lancer l’application avec Maven :
-
+```bash
 mvn spring-boot:run
-
-# L’application sera accessible sur http://localhost:8080 🚀
+```
+# L’application sera accessible sur http://localhost:8080

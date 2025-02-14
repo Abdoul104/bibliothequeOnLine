@@ -26,13 +26,15 @@ public class Emprunt {
     // Constructeur
     public Emprunt() {} // Constructeur vide obligatoire pour Hibernate
 
+    // Constructeur parametrer
     public Emprunt(Utilisateur utilisateur, Livre livre, LocalDate dateEmprunt, LocalDate dateRetourPrevue, String statut) {
         this.utilisateur = utilisateur;
         this.livre = livre;
         this.dateEmprunt = dateEmprunt;
         this.dateRetourPrevue = dateRetourPrevue;
         this.statut = statut;
-    }
+    } 
+
     // Getters and Setters
     public Long getId(){
         return id;

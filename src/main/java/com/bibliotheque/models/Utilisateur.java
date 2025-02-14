@@ -1,7 +1,5 @@
 package com.bibliotheque.models;
 
-// import java.util.List;
-// import java.util.ArrayList;
 import jakarta.persistence.*;
 
 @Entity
@@ -11,9 +9,6 @@ public class Utilisateur {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    // @OneToMany(mappedBy = "utilisateur", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    // private List<Livre> livres = new ArrayList<>();
 
     @Column(nullable = false)
     private String nom;

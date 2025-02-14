@@ -34,6 +34,7 @@ public class Livre {
         this.anneePublication = anneePublication;
         this.disponible = disponible;
     }
+    
      // Getters and Setters
      public Long getId(){
         return id;

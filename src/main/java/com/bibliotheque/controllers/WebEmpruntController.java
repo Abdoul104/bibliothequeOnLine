@@ -1,8 +1,6 @@
 package com.bibliotheque.controllers;
 
 import com.bibliotheque.models.Emprunt;
-// import com.bibliotheque.models.Livre;
-// import com.bibliotheque.models.Utilisateur;
 import com.bibliotheque.services.EmpruntService;
 import com.bibliotheque.services.LivreService;
 import com.bibliotheque.services.UtilisateurService;
@@ -10,10 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
+
+// Controlleur pour la gestion de l'affichage de Emprunts
 
 @Controller
 @RequestMapping("/emprunts")
@@ -64,10 +65,13 @@ public class WebEmpruntController {
                                            @RequestParam Long utilisateurId, 
                                            @RequestParam Long livreId, 
                                            @RequestParam String dateRetourPrevue,
-                                           @RequestParam String statut) {
+                                           @RequestParam String statut,
+                                           RedirectAttributes redirectAttributes) {  // 🔹 Ajout du paramètre
+    
         if (id == null) {
             // Ajout d'un nouvel emprunt
             empruntService.emprunterLivre(utilisateurId, livreId, LocalDate.now(), LocalDate.parse(dateRetourPrevue), statut);
+            redirectAttributes.addFlashAttribute("message", "📖 Emprunt ajouté avec succès !");
         } else {
             // Modification d'un emprunt existant
             Optional<Emprunt> empruntOpt = empruntService.getEmpruntById(id);
@@ -76,22 +80,19 @@ public class WebEmpruntController {
                 emprunt.setDateRetourPrevue(LocalDate.parse(dateRetourPrevue));
                 emprunt.setStatut(statut);
                 empruntService.modifierEmprunt(id, emprunt);
+                redirectAttributes.addFlashAttribute("message", "📖 Emprunt modifié avec succès !");
             }
         }
+    
+        return "redirect:/emprunts";
+    }    
+
+    // Rendre un livre emprunter
+    @GetMapping("/rendre/{id}")
+    public String rendreLivre(@PathVariable Long id, RedirectAttributes redirectAttributes) {  // 🔹 Ajout du paramètre
+        empruntService.rendreLivre(id);
+        redirectAttributes.addFlashAttribute("message", "📖 Livre rendu avec succès !");
         return "redirect:/emprunts";
     }
 
-      // Rendre un livre (changer statut à "Terminé")
-      @GetMapping("/rendre/{id}")
-      public String rendreLivre(@PathVariable Long id) {
-          empruntService.rendreLivre(id);
-          return "redirect:/emprunts";
-      }
-  
-      // Supprimer un emprunt
-    //   @GetMapping("/supprimer/{id}")
-    //   public String supprimerEmprunt(@PathVariable Long id) {
-    //       empruntService.supprimerEmprunt(id);
-    //       return "redirect:/emprunts";
-    //   }
 }

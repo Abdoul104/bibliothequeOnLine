@@ -6,9 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-// import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.Optional;
+
+// Controlleur pour la gestion de l'affichage de Livres
+
 
 @Controller
 public class WebLivreController {
@@ -37,8 +40,9 @@ public class WebLivreController {
 
     // Ajouter un livre
     @PostMapping("/livres/ajouter")
-    public String ajouterLivre(@ModelAttribute Livre livre){
+    public String ajouterLivre(@ModelAttribute Livre livre, RedirectAttributes redirectAttributes){
         livreService.saveLivre(livre);
+        redirectAttributes.addFlashAttribute("message", "📖 Enregistrement réussi !");
         return "redirect:/livres";
     }
 
@@ -55,9 +59,20 @@ public class WebLivreController {
     }
 
     // Supprimer un livre
-    @GetMapping("/livres/supprimer/{id}")
-    public String supprimerLivre(@PathVariable Long id) {
-        livreService.deleteLivre(id);
+    // @GetMapping("/livres/supprimer/{id}")
+    // public String supprimerLivre(@PathVariable Long id) {
+    //     livreService.deleteLivre(id);
+    //     return "redirect:/livres";
+    // }
+
+    @GetMapping("livres/supprimer/{id}")
+    public String supprimerLivre(@PathVariable Long id, RedirectAttributes redirectAttributes) {
+        try {
+            livreService.deleteLivre(id);
+            redirectAttributes.addFlashAttribute("message", "📖 Livre supprimé avec succès !");
+        } catch (RuntimeException e) {
+            redirectAttributes.addFlashAttribute("error", e.getMessage());
+        }
         return "redirect:/livres";
     }
 
