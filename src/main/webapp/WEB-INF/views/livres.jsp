@@ -91,7 +91,7 @@
         <script>
             setTimeout(() => {
                 document.getElementById('message-toast').style.display = 'none';
-            }, 5000);
+            }, 10000);
          </script>
     </c:if>
 

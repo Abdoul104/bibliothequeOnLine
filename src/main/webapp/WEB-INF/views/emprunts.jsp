@@ -130,7 +130,7 @@
             </div>
     <!-- Contenu principal -->
     <div class="container main-content">
-        <h2 class="text-center mt-5"><i class="fas fa-list"></i> Gestion des Emprunts</h2>
+        <h2 class="text-center mt-4"><i class="fas fa-list"></i> Gestion des Emprunts</h2>
         
         <div class="d-flex justify-content-between align-items-center my-3">
             <a href="/emprunts/ajouter" class="btn btn-success"><i class="fas fa-plus"></i> Nouvel Emprunt</a>

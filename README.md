@@ -91,19 +91,19 @@ L’application utilise **Bootstrap** pour améliorer l’expérience utilisateu
 
 ### **2. Ouvrez le projet dans l'éditeur**  
 
-# 3. Configurer la base de données
+### **3. Configurer la base de données**
 
-# Modifiez application.properties pour adapter les paramètres PostgreSQL/MySQL :
+#### **Modifiez application.properties pour adapter les paramètres PostgreSQL/MySQL :**
 ```bash
 spring.datasource.url=jdbc:postgresql://localhost:5432/bibliotheque
 spring.datasource.username=VOTRE_USER 
 spring.datasource.password=VOTRE_MOT_DE_PASSE
 spring.jpa.hibernate.ddl-auto=update
 ```
-# 4. Démarrer l’application
+### 4. Démarrer l’application
 
-#  Lancer l’application avec Maven :
+###  Lancer l’application avec Maven :
 ```bash
 mvn spring-boot:run
 ```
-# L’application sera accessible sur http://localhost:8080
+### L’application sera accessible sur http://localhost:8080
