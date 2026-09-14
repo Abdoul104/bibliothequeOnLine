@@ -1,6 +1,6 @@
 # 📚 Gestion de Bibliothèque en Ligne  
 
-### Concepteurs :  
+### Concepteur :  
 - **Abdoul Rachid BISSARE**
 
 ## Description du Projet  
